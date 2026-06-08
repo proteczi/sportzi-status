@@ -1,17 +1,42 @@
 owner: proteczi
 repo: sportzi-status
 
+workflowSchedule:
+  uptime: "0 * * * *"         # hourly
+  graphs: "0 0 * * *"         # daily midnight
+  responseTime: "0 23 * * *"  # daily 11pm
+  staticSite: "0 1 * * *"     # daily 1am
+  summary: "0 0 * * *"        # daily midnight
+  updates: "0 3 * * *"        # daily 3am
+
 sites:
   - name: Web
     url: https://sportzi.co/
+    maxResponseTime: 5000
+
   - name: API
     url: https://api.sportzi.co/
+    maxResponseTime: 3000
+
   - name: Score
     url: https://score.sportzi.co/
+    maxResponseTime: 5000
+
+  - name: Railway (Infrastructure)
+    url: https://status.railway.app
+    expectedStatusCodes: [200]
+
+  - name: Web (TCP/TLS)
+    url: tcp:sportzi.co:443
+    check: "tcp-ping"
+
+  - name: API (TCP/TLS)
+    url: tcp:api.sportzi.co:443
+    check: "tcp-ping"
 
 status-website:
   name: Sportzi Status
-  # Uncomment to use custom domain (add CNAME record →  YOUR_GITHUB_ORG.github.io)
+  # Uncomment to use custom domain (add CNAME record → YOUR_GITHUB_ORG.github.io)
   # cname: status.sportzi.co
   logoUrl: https://sportzi.co/logo.svg
   introTitle: "Welcome to Sportzi Status"
@@ -21,7 +46,7 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-# Notification channels —  uncomment and configure as needed
+# Notification channels — uncomment and configure as needed
 # assignees:
 #   - YOUR_GITHUB_USERNAME
 
