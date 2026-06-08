@@ -22,22 +22,15 @@ sites:
     url: https://score.sportzi.co/
     maxResponseTime: 5000
 
-  - name: Railway (Infrastructure)
-    url: https://status.railway.app
+  - name: API Health (DB)
+    url: https://api.sportzi.co/health
     expectedStatusCodes: [200]
+    maxResponseTime: 3000
 
-  - name: Web (TCP/TLS)
-    url: tcp:sportzi.co:443
-    check: "tcp-ping"
-
-  - name: API (TCP/TLS)
-    url: tcp:api.sportzi.co:443
-    check: "tcp-ping"
 
 status-website:
   name: Sportzi Status
-  # Uncomment to use custom domain (add CNAME record → YOUR_GITHUB_ORG.github.io)
-  # cname: status.sportzi.co
+  cname: status.sportzi.co
   logoUrl: https://sportzi.co/logo.svg
   introTitle: "Welcome to Sportzi Status"
   introMessage: "We monitor the health of our services and provide real-time updates on any incidents. Stay informed about the status of our Web, API, and Score services here."
