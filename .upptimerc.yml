@@ -1,31 +1,31 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: proteczi
+repo: sportzi-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Web
+    url: https://sportzi.co/
+  - name: API
+    url: https://api.sportzi.co/
+  - name: Score
+    url: https://score.sportzi.co/
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Sportzi Status
+  # Uncomment to use custom domain (add CNAME record →  YOUR_GITHUB_ORG.github.io)
+  # cname: status.sportzi.co
+  logoUrl: https://sportzi.co/logo.svg
+  introTitle: "Welcome to Sportzi Status"
+  introMessage: "We monitor the health of our services and provide real-time updates on any incidents. Stay informed about the status of our Web, API, and Score services here."
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+# Notification channels —  uncomment and configure as needed
+# assignees:
+#   - YOUR_GITHUB_USERNAME
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Slack alert on incident
+# notifications:
+#   - type: slack
+#     channel: C000000000  # Slack channel ID
