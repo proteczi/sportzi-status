@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/sportzi.co.ico",
     "slug": "web",
     "status": "up",
-    "uptime": "99.82%",
+    "uptime": "99.83%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.71%",
-    "uptimeYear": "99.82%",
-    "time": 521,
-    "timeDay": 1360,
-    "timeWeek": 751,
-    "timeMonth": 424,
-    "timeYear": 521,
+    "uptimeYear": "99.83%",
+    "time": 517,
+    "timeDay": 296,
+    "timeWeek": 755,
+    "timeMonth": 423,
+    "timeYear": 517,
     "dailyMinutesDown": {
       "2026-07-14": 128
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 425,
-    "timeDay": 365,
-    "timeWeek": 343,
-    "timeMonth": 336,
-    "timeYear": 425,
+    "time": 422,
+    "timeDay": 258,
+    "timeWeek": 344,
+    "timeMonth": 333,
+    "timeYear": 422,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 86,
-    "timeDay": 84,
+    "time": 85,
+    "timeDay": 48,
     "timeWeek": 63,
-    "timeMonth": 79,
-    "timeYear": 86,
+    "timeMonth": 77,
+    "timeYear": 85,
     "dailyMinutesDown": {}
   },
   {
@@ -66,11 +66,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 396,
-    "timeDay": 395,
-    "timeWeek": 334,
-    "timeMonth": 342,
-    "timeYear": 396,
+    "time": 395,
+    "timeDay": 303,
+    "timeWeek": 342,
+    "timeMonth": 343,
+    "timeYear": 395,
     "dailyMinutesDown": {}
   }
 ]
