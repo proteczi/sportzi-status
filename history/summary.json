@@ -5,15 +5,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/sportzi.co.ico",
     "slug": "web",
     "status": "up",
-    "uptime": "99.90%",
+    "uptime": "99.93%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.90%",
+    "uptimeYear": "99.93%",
     "time": 680,
-    "timeDay": 253,
-    "timeWeek": 838,
-    "timeMonth": 835,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
     "timeYear": 680,
     "dailyMinutesDown": {
       "2026-07-14": 128
@@ -24,18 +24,20 @@
     "url": "https://api.sportzi.co/",
     "icon": "https://icons.duckduckgo.com/ip3/api.sportzi.co.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 394,
-    "timeDay": 247,
-    "timeWeek": 362,
-    "timeMonth": 361,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
     "timeYear": 394,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-18": 0
+    }
   },
   {
     "name": "Score",
@@ -49,9 +51,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 103,
-    "timeDay": 76,
-    "timeWeek": 154,
-    "timeMonth": 133,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
     "timeYear": 103,
     "dailyMinutesDown": {}
   },
@@ -60,17 +62,19 @@
     "url": "https://api.sportzi.co/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.sportzi.co.ico",
     "slug": "api-health-db",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 372,
-    "timeDay": 210,
-    "timeWeek": 332,
-    "timeMonth": 341,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
     "timeYear": 372,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-18": 0
+    }
   }
 ]
